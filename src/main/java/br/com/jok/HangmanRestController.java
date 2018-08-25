@@ -37,7 +37,7 @@ public class HangmanRestController {
 			} else {
 				response = HangmanResponse.builder().
 						board("******").
-						message("You are wrong!").
+						message("You are wrongA!").
 						misses("1/6").build();
 				
 			}
